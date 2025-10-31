@@ -1,7 +1,6 @@
 import { Text, View, ImageBackground, StyleSheet, Dimensions, TouchableOpacity, Image } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 export default function Index() {
-  const { height, width } = Dimensions.get('window');
   const styles = StyleSheet.create({
     container: {
       flex: 1,
